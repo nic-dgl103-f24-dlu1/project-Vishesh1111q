@@ -1,9 +1,27 @@
+h1, h2, h3, h4, h5, h6{
+    color:#FFB6C1;
+    font-family: "Merriweather", serif;
+}
+p{
+    color:#333333;
+    font-family: "Ubuntu", sans-serif;
+}
 a{
-  color: #424b5a;
+  color: #87CEFA;
   display: block;
   margin: 16px 0;
-  padding: 12px 48px;
+  padding: 2% 7%;
+  font-family: "Ubuntu", sans-serif;
 }
+a.button {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #87CEFA;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 16px 0;
+  }
 /*-------- HEADER ---------*/
 header {
   display: flex;
@@ -33,4 +51,9 @@ header nav ul li a{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+/*----------------------------Hero------------------------*/
+.hero-buttons{
+    display: flex;
+    justify-content: space-around;
 }
