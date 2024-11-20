@@ -1,29 +1,39 @@
 body{
     margin:0;
     padding: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+html {
+  font-size: 62.5%;
 }
 h1, h2, h3, h4, h5, h6{
-    color:#FFB6C1;
+    color: #440D0F;
     font-family: "Merriweather", serif;
+}
+h1{
+  font-size: 3.8rem;
+  font-weight: 700;
 }
 p{
     color:#333333;
     font-family: "Ubuntu", sans-serif;
 }
 a{
-  color: #87CEFA;
+  color: #440D0F;
   display: block;
   margin: 16px 0;
-  padding: 2% 7%;
+  padding: 12px 30px;
   font-family: "Ubuntu", sans-serif;
 }
 a.button {
-    color: #ffffff;
+    color: #DEE5E5;
     text-transform: uppercase;
-    background-color: #87CEFA;
+    background-color: #440D0F;
     border-radius: 4px;
     display: inline-block;
     text-decoration: none;
+    font-size: 1.5rem;
     margin: 16px 0;
   }
 /*-------- HEADER ---------*/
@@ -31,12 +41,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #87CEFA;
+  background-color: #440D0F;
 }
 header .logo {
   width: 20%;
   height: 70px;
-  margin:2%;
 }
 header nav ul {
   list-style-type: none;
@@ -46,7 +55,7 @@ header nav ul {
 }
 header nav ul li a{
   text-decoration: none;
-  color:#ffffff
+  color:#DEE5E5;
 }
 .navbar {
   text-align: right;
@@ -54,7 +63,7 @@ header nav ul li a{
 }
 .toggle i {
   font-size: 2rem;
-  color:#ffffff;
+  color: #DEE5E5;
 }
 .show-items {
   display: flex;
@@ -63,14 +72,19 @@ header nav ul li a{
 }
 /*----------------------------Hero------------------------*/
 .hero {
-    background-image: url('images/hero.jpg');
-    background-size: cover;
+    padding: 5%;
+    padding-bottom: 20%;
+    background-image: url("images/hero_image.jpg");
     background-position: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575); 
-    padding: 80px 20px;
+    background-size: cover;
+}
+.hero .content{
+  background-color: #d8d8d896;
+  padding: 5%;
+  border-radius: 15px;
 }
 .hero p{
-    color:#ffffff;
+    color:#440D0F;
 }
 .hero-buttons{
     display: flex;
