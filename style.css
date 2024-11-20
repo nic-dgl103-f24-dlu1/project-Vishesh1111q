@@ -18,6 +18,7 @@ h1{
 p{
     color:#333333;
     font-family: "Ubuntu", sans-serif;
+    line-height: 1.5;
 }
 a{
   color: #440D0F;
@@ -77,6 +78,7 @@ header nav ul li a{
     background-image: url("images/hero_image.jpg");
     background-position: center;
     background-size: cover;
+    background-color: #f6f4f4;
 }
 .hero .content{
   background-color: #f6f4f4a6;
@@ -122,6 +124,25 @@ header nav ul li a{
   margin:2%;
 }
 .home-about{
+  background-color: #f6f4f4;
+  padding: 15%;
+  text-align: center;
+  margin: 20% 0;
+}
+.home-about h3{
+   font-weight: 300;
+   text-transform: capitalize;
+   line-height: 1.8;
+}
+.home-about p{
+  line-height: 1.8;
+}
+.home-about .button{
+  background-color: #f6f4f4;
+  color:#440D0F;
+  border: 1px solid #440D0F;
+  font-weight: 500;
+}
 /*----------------TESTIMONIALS-----------------*/
 .testimonials {
   text-align: center;
@@ -135,6 +156,7 @@ header nav ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin:20%;
 }
 .testimonial-card {
   background-color: #f6f4f4;
@@ -158,4 +180,19 @@ header nav ul li a{
 .testimonial-card strong {
   margin-bottom: 0;
   color:#333333;
+}
+/*-------- FOOTER ---------*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f6f4f4;
+}
+footer img{
+  width:40%;
+}
+.footer-nav a {
+  text-decoration: none;
+}
+footer p{
+  color:#a1aeb7;
 }
