@@ -27,7 +27,7 @@ a{
   font-family: "Ubuntu", sans-serif;
 }
 a.button {
-    color: #DEE5E5;
+    color: #f6f4f4;
     text-transform: uppercase;
     background-color: #440D0F;
     border-radius: 4px;
@@ -55,7 +55,7 @@ header nav ul {
 }
 header nav ul li a{
   text-decoration: none;
-  color:#DEE5E5;
+  color:#f6f4f4;
 }
 .navbar {
   text-align: right;
@@ -63,7 +63,7 @@ header nav ul li a{
 }
 .toggle i {
   font-size: 2rem;
-  color: #DEE5E5;
+  color: #f6f4f4;
 }
 .show-items {
   display: flex;
@@ -79,7 +79,8 @@ header nav ul li a{
     background-size: cover;
 }
 .hero .content{
-  background-color: #d8d8d896;
+  background-color: #f6f4f4a6;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
   padding: 5%;
   border-radius: 15px;
 }
@@ -102,7 +103,6 @@ header nav ul li a{
 .feature-card {
   width: 236px;
   background-color: #440D0F;
-  color:#DEE5E5;
   padding-bottom: 2%;
   border-radius: 10px;
   margin: 5% 0;
@@ -114,10 +114,47 @@ header nav ul li a{
   border-top-right-radius: 10px ;
 }
 .feature-card h3{
-  color:#DEE5E5;
+  color:#f6f4f4;
   margin:2%;
 }
 .feature-card p{
-  color: #DEE5E5;
+  color: #f6f4f4;
   margin:2%;
+}
+/*----------------TESTIMONIALS-----------------*/
+.testimonials {
+  text-align: center;
+  margin: 60px 40px;
+}
+.testimonials h2 {
+  margin: 40px;
+}
+.testimonial-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-card {
+  background-color: #f6f4f4;
+  width: 320px;
+  height: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card img {
+  height: 50px;
+  width: 50px;
+}
+.testimonial-card p {
+  color: #a1aeb7;
+  margin: 20px 30px;
+}
+.testimonial-card strong {
+  margin-bottom: 0;
+  color:#333333;
 }
