@@ -43,6 +43,9 @@ a.button {
   }
   /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
+  body{
+    font-size: 1.6rem;
+  }
   a, a.button{
     font-size: 2rem;
   }
@@ -103,10 +106,7 @@ header nav ul li a{
     background-color: #f6f4f4;
 }
 .hero .content{
-  background-color: #f6f4f4a6;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
-  padding: 5%;
-  border-radius: 15px;
+  padding: 5% 10%;
 }
 .hero p{
     color:#440D0F;
@@ -115,6 +115,13 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
 }
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+ .hero-buttons{
+  justify-content: flex-start;
+ }
+}
+/*--------------------FEATURES------------------*/
 .feature{
   text-align: center;
   margin:10%;
