@@ -98,7 +98,6 @@ header nav ul li a{
 }
 /*----------------------------Hero------------------------*/
 .hero {
-    padding: 5%;
     padding-bottom: 20%;
     background-image: url("images/brooke-lark-08bOYnH_r_E-unsplash.jpg");
     background-position: center;
@@ -106,10 +105,17 @@ header nav ul li a{
     background-color: #f6f4f4;
 }
 .hero .content{
-  padding: 5% 10%;
+  padding: 5%;
 }
 .hero p{
     color:#440D0F;
+}
+.hero a{
+  background-color: #f6f4f4d7;
+  border-radius: 10px;
+}
+.hero .button{
+  background-color: #440D0F;
 }
 .hero-buttons{
     display: flex;
@@ -119,6 +125,12 @@ header nav ul li a{
 @media only screen and (min-width: 768px) {
  .hero-buttons{
   justify-content: flex-start;
+ }
+ .hero .content{
+  padding: 5% 10%;
+ }
+ .hero{
+  padding-top: 10%;
  }
 }
 /*--------------------FEATURES------------------*/
@@ -156,6 +168,15 @@ header nav ul li a{
 .feature-card p{
   color: #f6f4f4;
   margin:2%;
+}
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  .feature-food{
+    flex-direction: row;
+  }
+  .feature{
+    margin-bottom: 0;
+  }
 }
 .home-about{
   background-color: #f6f4f4;
