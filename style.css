@@ -94,7 +94,25 @@ header nav ul li a{
     font-size: 2.5rem;
     margin-top: 30px;
   }
+}
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  header {
+    align-items: center;
+  }
 
+  .navbar {
+    padding-top: 0;
+  }
+
+  .navbar .toggle {
+    display: none;
+  }
+
+  #nav-items {
+    display: flex;
+    flex-direction: row;
+  }
 }
 /*----------------------------Hero------------------------*/
 .hero {
