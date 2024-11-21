@@ -236,6 +236,23 @@ header nav ul li a{
   margin-bottom: 0;
   color:#333333;
 }
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  .testimonials {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .testimonials h2 {
+    margin: 0;
+  }
+  .testimonial-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin:10% 0;
+  }
+}
 /*-------- FOOTER ---------*/
 footer {
   text-align: center;
