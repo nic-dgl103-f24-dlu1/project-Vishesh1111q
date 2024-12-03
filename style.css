@@ -135,10 +135,12 @@ header nav ul li a{
   header {
     align-items: center;
     height:10rem;
+    justify-content: space-around;
+
   }
   header .logo{
     height:10rem;
-    width:10%;
+    width:9%;
   }
   .navbar {
     padding-top: 0;
@@ -193,13 +195,13 @@ header nav ul li a{
     margin:5%;
 }
 .hero .content img{
-  width:40%;
+  width:35%;
 }
 }
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
  .hero .content{
-  margin: 0 5%;
+  margin: 0 10%;
  }
  .hero h1{
   text-align: left;
@@ -421,10 +423,34 @@ footer i{
   padding: 10px 20px;
   font-size: 1.6rem;
   cursor: pointer;
+  width:50%;
+  align-self: center;
 }
 
 /* Map */
 iframe{
   width:100%;
   margin:5% 0;
+}
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  .contact-form button{
+    margin:5%;
+  }
+}
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  .web-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:5%;
+  }
+  .web-info .reservation{
+    width:50%;
+    margin-top: 5%;
+  }
+  .web-info .form{
+    width:50%;
+  }
 }
