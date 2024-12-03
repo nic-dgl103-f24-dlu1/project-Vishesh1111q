@@ -50,6 +50,28 @@ a.button {
     font-size: 2rem;
   }
 }
+/*-------- UTILITY ---------*/
+/* these CSS properties have been sepearated into individual style rules so that you can apply them to multiple blocks of content */
+
+.content-width {
+  width: 334px;
+  margin: auto;
+}
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  .content-width {
+    width: 690px;
+  }
+}
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  a {
+    display: inline-block;
+  }
+  .content-width {
+    width: 1130px;
+  }
+}
 /*-------- HEADER ---------*/
 header {
   display: flex;
@@ -116,14 +138,11 @@ header nav ul li a{
 }
 /*----------------------------Hero------------------------*/
 .hero {
-    padding-bottom: 20%;
-    background-image: url("images/brooke-lark-08bOYnH_r_E-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
     background-color: #f6f4f4;
+    padding:5% 2%;
 }
-.hero .content{
-  padding: 5%;
+.hero img{
+  width:100%;
 }
 .hero p{
     color:#440D0F;
@@ -138,18 +157,24 @@ header nav ul li a{
 .hero-buttons{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
  .hero-buttons{
   justify-content: flex-start;
  }
- .hero .content{
-  padding: 5% 10%;
- }
- .hero{
-  padding-top: 10%;
- }
+.hero .content-width{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  .hero{
+    padding-bottom: 0;
+  }
 }
 /*--------------------FEATURES------------------*/
 .feature{
