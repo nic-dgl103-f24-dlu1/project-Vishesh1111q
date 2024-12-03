@@ -368,3 +368,26 @@ footer i{
     font-size: 2rem;
   }
 }
+/*-----------------------Contact.html------------------------*/
+.contact h2{
+  text-align: center;
+}
+/* Tables */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.info-table th, .info-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.info-table th {
+  background-color: #f6f4f4;
+  text-align: center;
+}
+.info-table ul{
+  list-style-type: none;
+}
