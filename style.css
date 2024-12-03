@@ -257,12 +257,16 @@ header nav ul li a{
     margin-bottom: 0;
   }
 }
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  
+}
 /*-----------------------INDEX-about------------------------------*/
 .home-about{
   background-color: #f6f4f4;
-  padding: 15%;
   text-align: center;
   margin: 20% 0;
+  padding: 10%;
 }
 .home-about h3{
    font-weight: 300;
@@ -272,11 +276,32 @@ header nav ul li a{
 .home-about p{
   line-height: 1.8;
 }
+.home-about img{
+  margin: 5% 0;
+  width:100%;
+}
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
   .home-about{
     margin: 10% 0;
     padding: 10% 15%;
+  }
+}
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  .home-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5%;
+    padding: 5% 15%;
+  }
+  .home-about p{
+    text-align: left;
+  }
+  .home-about img{
+    width:50%;
+    height:45rem;
   }
 }
 /*----------------TESTIMONIALS-----------------*/
