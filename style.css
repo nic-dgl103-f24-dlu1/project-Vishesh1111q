@@ -41,6 +41,18 @@ a.button {
     font-size: 1.5rem;
     margin: 16px 0;
   }
+a.button-sec{
+  background-color: #f6f4f4;
+  color:#440D0F;
+  border: 1px solid #440D0F;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
   /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
   body{
@@ -70,6 +82,7 @@ a.button {
   }
   .content-width {
     width: 1130px;
+    margin: auto;
   }
 }
 /*-------- HEADER ---------*/
@@ -208,11 +221,13 @@ header nav ul li a{
   margin-top: 5%;
 }
 .feature-card {
-  width: 236px;
-  background-color: #440D0F;
+  width: 25rem;
+  height:26rem;
+  background-color: #f6f4f4;
   padding-bottom: 2%;
   border-radius: 10px;
   margin: 5% 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .feature-card img{
   width:100%;
@@ -221,7 +236,7 @@ header nav ul li a{
   border-top-right-radius: 10px ;
 }
 .feature-card h3{
-  color:#f6f4f4;
+  color:#440D0F;
   margin:2%;
 }
 .feature-card p{
@@ -232,11 +247,15 @@ header nav ul li a{
 @media only screen and (min-width: 768px) {
   .feature-food{
     flex-direction: row;
+    justify-content: center;
+    gap:5%;
+    margin-top: 0;
   }
   .feature{
     margin-bottom: 0;
   }
 }
+/*-----------------------INDEX-about------------------------------*/
 .home-about{
   background-color: #f6f4f4;
   padding: 15%;
@@ -251,11 +270,12 @@ header nav ul li a{
 .home-about p{
   line-height: 1.8;
 }
-.home-about .button{
-  background-color: #f6f4f4;
-  color:#440D0F;
-  border: 1px solid #440D0F;
-  font-weight: 500;
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  .home-about{
+    margin: 10% 0;
+    padding: 10% 15%;
+  }
 }
 /*----------------TESTIMONIALS-----------------*/
 .testimonials {
@@ -299,8 +319,7 @@ header nav ul li a{
 @media only screen and (min-width: 768px) {
   .testimonials {
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 15%;
   }
   .testimonials h2 {
     margin: 0;
