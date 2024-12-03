@@ -158,7 +158,7 @@ header nav ul li a{
 /*----------------------------Hero------------------------*/
 .hero {
     background-color: #f6f4f4;
-    padding:5%;
+    padding:5% 10%;
 }
 .hero h1{
   text-align:center;
@@ -180,9 +180,13 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     margin-bottom: 5%;
+    text-align: center;
 }
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
+  .hero h1{
+    text-align: left;
+  }
  .hero-buttons{
   justify-content: flex-start;
  }
@@ -197,15 +201,6 @@ header nav ul li a{
 .hero .content img{
   width:35%;
 }
-}
-/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
-@media only screen and (min-width: 1200px) {
- .hero .content{
-  margin: 0 10%;
- }
- .hero h1{
-  text-align: left;
- }
 }
 /*--------------------FEATURES------------------*/
 .feature{
@@ -259,7 +254,7 @@ header nav ul li a{
 }
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
-  
+
 }
 /*-----------------------INDEX-about------------------------------*/
 .home-about{
@@ -478,4 +473,17 @@ iframe{
   .web-info .form{
     width:50%;
   }
+}
+/*---------------------menu.html----------------------------*/
+.menu .menu-hero{
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height:40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu h1{
+  color:#f6f4f4;
 }
