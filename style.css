@@ -121,8 +121,12 @@ header nav ul li a{
 @media only screen and (min-width: 1200px) {
   header {
     align-items: center;
+    height:10rem;
   }
-
+  header .logo{
+    height:10rem;
+    width:10%;
+  }
   .navbar {
     padding-top: 0;
   }
@@ -139,7 +143,10 @@ header nav ul li a{
 /*----------------------------Hero------------------------*/
 .hero {
     background-color: #f6f4f4;
-    padding:5% 2%;
+    padding:5%;
+}
+.hero h1{
+  text-align:center;
 }
 .hero img{
   width:100%;
@@ -164,17 +171,26 @@ header nav ul li a{
  .hero-buttons{
   justify-content: flex-start;
  }
-.hero .content-width{
+.hero .content{
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:5%;
+    margin:5%;
+}
+.hero .content img{
+  width:40%;
 }
 }
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
-  .hero{
-    padding-bottom: 0;
-  }
+ .hero .content{
+  margin: 0 5%;
+ }
+ .hero h1{
+  text-align: left;
+ }
 }
 /*--------------------FEATURES------------------*/
 .feature{
