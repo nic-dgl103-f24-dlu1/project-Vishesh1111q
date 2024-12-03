@@ -371,6 +371,7 @@ footer i{
 /*-----------------------Contact.html------------------------*/
 .contact h2{
   text-align: center;
+  margin:5%;
 }
 /* Tables */
 .info-table {
@@ -390,4 +391,40 @@ footer i{
 }
 .info-table ul{
   list-style-type: none;
+}
+/*--reservation--*/
+.reservation a{
+  padding: 0;
+  margin: 0;
+  display:inline-block;
+}
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-form input, 
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f6f4f4;
+  border-radius: 4px;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact-form button {
+  background-color: #440D0F;
+  color: #f6f4f4;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* Map */
+iframe{
+  width:100%;
+  margin:5% 0;
 }
