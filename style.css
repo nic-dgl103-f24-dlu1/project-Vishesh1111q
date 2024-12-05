@@ -30,9 +30,11 @@ a{
   margin: 16px 0;
   padding: 12px 30px;
   font-family: "Ubuntu", sans-serif;
-  
+  transition: transform 0.3s ease;
 }
-
+a:hover{
+  transform: scale(1.1); 
+}
 a.button {
     color: #f6f4f4;
     text-transform: uppercase;
@@ -43,6 +45,11 @@ a.button {
     font-size: 1.5rem;
     margin: 16px 0;
   }
+a.button:hover{
+  background-color: #f6f4f4;
+  color:#440D0F;
+  border: 1px solid #440D0F;
+}
 a.button-sec{
   background-color: #f6f4f4;
   color:#440D0F;
@@ -54,6 +61,11 @@ a.button-sec{
   display: inline-block;
   font-size: 1.5rem;
   margin: 16px 0;
+}
+a.button-sec:hover{
+  background-color: #440D0F;
+  color:#f6f4f4;
+  border: 1px solid #440D0F;
 }
   /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
@@ -107,6 +119,10 @@ header nav ul {
 header nav ul li a{
   text-decoration: none;
   color:#f6f4f4;
+  transition: border-bottom 0.03s ease;
+}
+header nav ul li a:hover{
+  border-bottom: 1px solid #f6f4f4;
 }
 .navbar {
   text-align: right;
@@ -191,6 +207,7 @@ header nav ul li a{
   }
  .hero-buttons{
   justify-content: flex-start;
+  gap: 5%;
  }
 .hero .content{
     display:flex;
@@ -498,6 +515,11 @@ iframe{
   color:#f6f4f4;
   text-decoration: none;
   border-bottom: 1px solid #f6f4f4;
+}
+.menu-hero ul li a:hover{
+  color:#440D0F;
+  border-bottom: 1px solid #440D0F;
+  text-shadow: 0px 2px 8px rgba(246, 245, 245, 0.539);
 }
 .menu h1{
   color:#f6f4f4;
