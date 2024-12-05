@@ -30,7 +30,9 @@ a{
   margin: 16px 0;
   padding: 12px 30px;
   font-family: "Ubuntu", sans-serif;
+  
 }
+
 a.button {
     color: #f6f4f4;
     text-transform: uppercase;
@@ -482,7 +484,7 @@ iframe{
   background-image: url("images/hero.jpg");
   background-size: cover;
   background-repeat: none;
-  height:40vh;
+  height:50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -490,6 +492,7 @@ iframe{
 }
 .menu-hero ul{
   list-style-type: none;
+  text-align: left;
 }
 .menu-hero ul li a{
   color:#f6f4f4;
@@ -522,5 +525,9 @@ iframe{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .menu-hero ul{
+    display: flex;
+    gap:5%;
   }
 }
