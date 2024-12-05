@@ -484,8 +484,17 @@ iframe{
   background-repeat: none;
   height:40vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.menu-hero ul{
+  list-style-type: none;
+}
+.menu-hero ul li a{
+  color:#f6f4f4;
+  text-decoration: none;
+  border-bottom: 1px solid #f6f4f4;
 }
 .menu h1{
   color:#f6f4f4;
