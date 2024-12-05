@@ -487,3 +487,28 @@ iframe{
 .menu h1{
   color:#f6f4f4;
 }
+/* Menu Table Styling */
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.menu-table th, 
+.menu-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.menu-table th {
+  background-color: #f6f4f4;
+  color: #440D0F;
+  font-family: "Merriweather", serif;
+}
+.menu-table td {
+  font-family: "Ubuntu", sans-serif;
+  color: #333;
+}
+.menu-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
