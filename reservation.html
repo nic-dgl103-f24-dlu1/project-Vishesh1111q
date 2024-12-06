@@ -31,77 +31,122 @@
         </ul>
       </nav>
     </header>
-    <main class="content-width">
-      <div class="reservation">
+    <main>
+      <div class="reservation-hero">
         <h2>Reservations</h2>
-        <p>We do not take reservations in the traditional sense. We currently accommodate one group reservation of 6 persons per service and leave the rest of the restaurant available for walk-in customers.</p>
-        <p>We do take small party reservations on <strong>Valentine's Day</strong> and <strong>New Year's Eve</strong>.</p>
-        <p>For up-to-date hours of operations, please visit our <a href="#">Facebook</a> or <a href="#">Instagram</a> pages.</p>
+      </div>
+      <div class="content-width">
+        <div class="reservation">
+          <p>
+            We do not take reservations in the traditional sense. We currently
+            accommodate one group reservation of 6 persons per service and leave
+            the rest of the restaurant available for walk-in customers.
+          </p>
+          <p>
+            We do take small party reservations on
+            <strong>Valentine's Day</strong> and
+            <strong>New Year's Eve</strong>.
+          </p>
+          <p>
+            For up-to-date hours of operations, please visit our
+            <a href="#">Facebook</a> or <a href="#">Instagram</a> pages.
+          </p>
         </div>
-          <form method="post" class="reservation-form">
-            <div class="form-group">
-              <label for="name">Full Name:</label>
-              <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address:</label>
-              <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-            </div>
-            <div class="form-group">
-              <label for="date">Reservation Date:</label>
-              <input type="date" id="date" name="date" required>
-            </div>
-            <div class="form-group">
-              <label for="time">Reservation Time:</label>
-              <input type="time" id="time" name="time" required>
-            </div>
-            <div class="form-group">
-              <label for="guests">Number of Guests:</label>
-              <select id="guests" name="guests" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="requests">Special Requests:</label>
-              <textarea id="requests" name="requests" rows="4" placeholder="Any special requests or dietary restrictions"></textarea>
-            </div>
-            <div class="reservation-button">
+        <form method="post" class="reservation-form">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form-group">
+            <label for="time">Reservation Time:</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+          <div class="form-group">
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="requests">Special Requests:</label>
+            <textarea
+              id="requests"
+              name="requests"
+              rows="4"
+              placeholder="Any special requests or dietary restrictions"
+            ></textarea>
+          </div>
+          <div class="reservation-button">
             <button type="submit" class="button">Submit Reservation</button>
-            </div>
-          </form>
+          </div>
+        </form>
+      </div>
     </main>
 
     <footer>
-        <img src="images/footer_logo.png" alt="footer logo">
-        <p>Atlas Café, in the Comox Valley, is the home of perfectly overstuffed breakfasts, bustling lunches and inspired dinners.</p>
-        <nav class="footer-nav">
-          <a href="index.html">Home</a>
-          <a href="menu.html">Menu</a>
-          <a href="reservation.html">Reservation</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-regular fa-envelope"></i>
-        <hr />
-        <p class="footer-text">©2018 - Form | All rights reserved</p>
-        <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
-      </footer>
-      <script>
-        function showNav() {
-          var element = document.getElementById("nav-items");
-          element.classList.toggle("show-items");
-        }
-      </script>
-    </body>
-  </html>
-  
+      <img src="images/footer_logo.png" alt="footer logo" />
+      <p>
+        Atlas Café, in the Comox Valley, is the home of perfectly overstuffed
+        breakfasts, bustling lunches and inspired dinners.
+      </p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-regular fa-envelope"></i>
+      <hr />
+      <p class="footer-text">©2018 - Form | All rights reserved</p>
+      <p>
+        This is a fictional website that was designed and coded as an
+        educational exercise. It is not intended to be seen outside of the class
+        environment. None of the content and images were approved by the
+        business owner.
+      </p>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
