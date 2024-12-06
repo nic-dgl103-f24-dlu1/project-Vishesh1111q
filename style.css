@@ -588,7 +588,7 @@ iframe {
 .menu .menu-hero {
   background-image: url("images/hero.jpg");
   background-size: cover;
-  background-repeat: none;
+  background-repeat:no-repeat;
   height: 50vh;
   display: flex;
   flex-direction: column;
